@@ -1,0 +1,6 @@
+[submodule "ErrorDashboardClient"]
+	path = ErrorDashboardClient
+	url = https://github.com/HiQ-Apps/ErrorDashboardClient.git
+[submodule "ErrorDashboardServer"]
+	path = ErrorDashboardServer
+	url = https://github.com/HiQ-Apps/ErrorDashboardServer.git
