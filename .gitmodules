@@ -4,3 +4,9 @@
 [submodule "ErrorDashboardServer"]
 	path = ErrorDashboardServer
 	url = https://github.com/HiQ-Apps/ErrorDashboardServer.git
+[submodule "ErrorDashboardSDK"]	
+	path = ErrorDashboardSDK
+	url = https://github.com/HiQ-Apps/ErrorDashboardClientSDK.git
+[submodule "ErrorDashboardJSTest"]
+	path = SDKTest
+	url = https://github.com/HiQ-Apps/test-sdk.git

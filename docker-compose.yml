@@ -11,8 +11,7 @@ services:
       - server
     env_file:
       - ./ErrorDashboardClient/client/.env.development.local    
-
-# TODO: Figure out server binary, migration and db setup
+  
   # server:
   #   build:
   #     context: ./ErrorDashboardServer/server
@@ -22,10 +21,10 @@ services:
   #   depends_on:
   #     - db
   #   env_file:
-  #     - ./ErrorDashboardServer/server/.env.development.local
+  #     - ./ErrorDashboardServer/server/.env
 
   # db:
-  #   image: postgres:12
+  #   image: postgres:latest
   #   ports:
   #     - "5432:5432"
   #   environment:
